@@ -121,6 +121,28 @@ body .wrapper .footer p {
   .wrapper nav .brand-logo {
     font-size: 1.5em;
   }
+  .wrapper .sidenav {
+    background: #2D5F5C;
+  }
+  .wrapper .sidenav .divider {
+    background: #c0c0c0;
+  }
+  .wrapper .sidenav p {
+    color: white;
+    padding-left: 0.5em;
+    margin: 0.5em 0 0 0;
+  }
+  .wrapper .sidenav li a {
+    color: white;
+  }
+  .wrapper .sidenav .social-profiles {
+    margin-top: 2em;
+  }
+  .wrapper .sidenav .social-profiles i {
+    padding: 0 0 0 1em;
+    color: white;
+    font-size: 1.2em;
+  }
   .wrapper .main-body {
     padding: 0 1em !important;
     margin-top: 1em !important;
@@ -157,5 +179,6 @@ body .wrapper .footer p {
     font-size: 1em !important;
   }
 }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*# sourceMappingURL=styles.css.map */

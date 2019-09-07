@@ -90,6 +90,29 @@ body
       .brand-logo
         font-size: 1.5em
 
+    .sidenav
+      background: $dull-green
+
+      .divider
+        background: $light-grey
+
+      p
+        color: white
+        padding-left: .5em
+        margin: .5em 0 0 0
+
+      li
+        a
+          color: white
+
+      .social-profiles
+        margin-top: 2em
+
+        i
+          padding: 0 0 0 1em
+          color: white
+          font-size: 1.2em
+
     .main-body
       padding: 0 1em !important
       margin-top: 1em !important
@@ -124,3 +147,9 @@ body
 
       p
         font-size: 1em !important
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+  .wrapper
+    nav
+      .nav-wrapper
