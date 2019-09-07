@@ -1,0 +1,34 @@
+@import colors
+
+/* label color */
+.input-field label
+  color: $light-grey
+
+/* label focus color */
+textarea:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=text]:focus + label
+  color: white !important
+
+/* label underline focus color */
+textarea:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=text]:focus
+  border-bottom: 1px solid white !important
+  box-shadow: 0 1px 0 0 white !important
+
+/* valid color */
+.input-field input[type=email].valid,
+.input-field input[type=text].valid
+  border-bottom: 1px solid yellow !important
+  box-shadow: 0 1px 0 0 yellow !important
+
+/* invalid color */
+.input-field input[type=email].invalid,
+.input-field input[type=text].invalid
+  border-bottom: 1px solid red !important
+  box-shadow: 0 1px 0 0 red !important
+
+/* icon prefix focus color */
+.input-field .prefix.active
+  color: white

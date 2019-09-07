@@ -1,10 +1,63 @@
 @import url("materialize.min.css");
 @import url("all.min.css");
 @import url("../fonts/pt_sans.css");
+/* label color */
+.input-field label {
+  color: #c0c0c0;
+}
+
+/* label focus color */
+textarea:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=text]:focus + label {
+  color: white !important;
+}
+
+/* label underline focus color */
+textarea:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+/* valid color */
+.input-field input[type=email].valid,
+.input-field input[type=text].valid {
+  border-bottom: 1px solid yellow !important;
+  box-shadow: 0 1px 0 0 yellow !important;
+}
+
+/* invalid color */
+.input-field input[type=email].invalid,
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid red !important;
+  box-shadow: 0 1px 0 0 red !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: white;
+}
+
 html, body {
   height: 100%;
   margin: 0;
   font-family: "PT Sans";
+}
+
+.btn-grey {
+  width: 200px;
+  background: #c0c0c0;
+  color: #022140;
+  font-weight: 500;
+  border-radius: 1.2em;
+}
+.btn-grey:hover, .btn-grey:focus {
+  background: #022140;
+  color: white;
+  transition: all ease 200ms;
+  box-shadow: none;
 }
 
 body .wrapper {
@@ -20,6 +73,45 @@ body .wrapper nav {
 }
 body .wrapper nav #nav-mobile li i {
   padding: 0 0.5em;
+}
+body .wrapper .main-body p, body .wrapper .footer p {
+  color: white;
+  margin: 0;
+}
+body .wrapper .main-body {
+  margin-top: 3em;
+}
+body .wrapper .main-body .main-title {
+  font-size: 3em;
+}
+body .wrapper .main-body .user-career {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+body .wrapper .main-body .user-motto {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+body .wrapper .main-body .contact-form {
+  padding: 0 !important;
+  margin-top: 2em;
+}
+body .wrapper .main-body .contact-form .form-title {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+body .wrapper .main-body .contact-form .col {
+  padding-left: 0;
+}
+body .wrapper .footer {
+  margin-top: 3em;
+  padding: 0 2em;
+}
+body .wrapper .footer i {
+  color: #022140;
+}
+body .wrapper .footer p {
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,18 +1,27 @@
 @import url("materialize.min.css")
 @import url("all.min.css")
 @import url("../fonts/pt_sans.css")
-
-//color variables
-$dull-green: #2D5F5C
-$dull-blue: #1E4258
-$dull-purple: #4A4B69
-$dark-navy-blue: #022140
-$bright-dull-blue: #265078
+@import colors
+@import input
 
 html, body
   height: 100%
   margin: 0
   font-family: "PT Sans"
+
+.btn-grey
+  width: 200px
+  background: $light-grey
+  color: $dark-navy-blue
+  font-weight: 500
+  border-radius: 1.2em
+
+  &:hover,
+  &:focus
+    background: $dark-navy-blue
+    color: white
+    transition: all ease 200ms
+    box-shadow: none
 
 body
   .wrapper
@@ -32,3 +41,43 @@ body
         li
           i
             padding: 0 .5em
+
+    .main-body, .footer
+      p
+        color: white
+        margin: 0
+
+    .main-body
+      margin-top: 3em
+
+      .main-title
+        font-size: 3em
+
+      .user-career
+        font-size: 2.5em
+        font-weight: 600
+
+      .user-motto
+        font-size: 1.5em
+        margin-top: 1em
+
+      .contact-form
+        padding: 0 !important
+        margin-top: 2em
+
+        .form-title
+          font-size: 1.2em
+          margin-bottom: 1em
+
+        .col
+          padding-left: 0
+
+    .footer
+      margin-top: 3em
+      padding: 0 2em
+
+      i
+        color: $dark-navy-blue
+
+      p
+        font-size: 1.2em
