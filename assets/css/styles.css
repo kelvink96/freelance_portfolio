@@ -114,4 +114,48 @@ body .wrapper .footer p {
   font-size: 1.2em;
 }
 
+@media only screen and (max-width: 480px) {
+  .wrapper nav {
+    padding: 0 !important;
+  }
+  .wrapper nav .brand-logo {
+    font-size: 1.5em;
+  }
+  .wrapper .main-body {
+    padding: 0 1em !important;
+    margin-top: 1em !important;
+  }
+  .wrapper .main-body .main-title {
+    font-size: 2.5em !important;
+  }
+  .wrapper .main-body .user-career {
+    font-size: 2em !important;
+    font-weight: 500 !important;
+  }
+  .wrapper .main-body .user-motto {
+    font-size: 1.2em !important;
+    margin-top: 0.5em !important;
+  }
+  .wrapper .main-body .contact-form {
+    margin-top: 1em !important;
+  }
+  .wrapper .main-body .contact-form .form-title {
+    font-size: 1em !important;
+    margin-bottom: 0 !important;
+  }
+  .wrapper .main-body .contact-form button {
+    width: 150px !important;
+    font-weight: 400 !important;
+  }
+  .wrapper .footer {
+    margin-top: 1em !important;
+  }
+  .wrapper .footer i {
+    font-size: 1.5em !important;
+  }
+  .wrapper .footer p {
+    font-size: 1em !important;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
