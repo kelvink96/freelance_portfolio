@@ -180,5 +180,53 @@ body .wrapper .footer p {
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+  .wrapper nav {
+    padding: 0 2em !important;
+  }
+  .wrapper nav .nav-wrapper .brand-logo {
+    font-size: 2.5em;
+  }
+  .wrapper nav .nav-wrapper #nav-mobile li a {
+    font-size: 1.5em;
+  }
+
+  .main-body {
+    margin-top: 8em !important;
+  }
+  .main-body .main-title {
+    font-size: 6em !important;
+  }
+  .main-body .user-career {
+    font-size: 5em !important;
+  }
+  .main-body .user-motto {
+    font-size: 3em !important;
+    margin-top: 1.5em !important;
+  }
+  .main-body .contact-form {
+    margin-top: 3em !important;
+  }
+  .main-body .contact-form .form-title {
+    font-size: 2em !important;
+    margin-bottom: 1.5em !important;
+  }
+  .main-body .contact-form input, .main-body .contact-form label {
+    font-size: 1.5em;
+  }
+  .main-body .contact-form button {
+    height: 60px;
+    width: 300px !important;
+    font-size: 1.5em !important;
+  }
+
+  .footer {
+    margin-top: 5em !important;
+    padding: 0 3em !important;
+  }
+  .footer p {
+    font-size: 2em !important;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
