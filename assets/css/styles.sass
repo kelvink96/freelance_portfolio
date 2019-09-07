@@ -3,21 +3,32 @@
 @import url("../fonts/pt_sans.css")
 
 //color variables
-$dull-blue: #97A9BD
-$reddish: #C96567
-$dark-reddish: #9D5A63
-$black-reddish: #644E5B
-$dark-blue: #314455
+$dull-green: #2D5F5C
+$dull-blue: #1E4258
+$dull-purple: #4A4B69
+$dark-navy-blue: #022140
+$bright-dull-blue: #265078
 
 html, body
   height: 100%
   margin: 0
+  font-family: "PT Sans"
 
 body
-  .bg
-    background-image: url("../images/portfolio_main.jpg")
+  .wrapper
+    background-image: linear-gradient(120deg, rgba(2, 33, 64, .7), rgba(2, 33, 64, .8), rgba(45, 95, 92, .9), rgba(45, 95, 92, 1)), url("../images/portfolio_main.jpg")
     height: 100%
 
     //center image
     background-repeat: no-repeat
     background-size: cover
+
+    nav
+      background: transparent
+      box-shadow: none
+      padding: 0 1em
+
+      #nav-mobile
+        li
+          i
+            padding: 0 .5em
