@@ -1,0 +1,16 @@
+@import url("materialize.min.css");
+@import url("all.min.css");
+@import url("../fonts/pt_sans.css");
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body .bg {
+  background-image: url("../images/portfolio_main.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */
