@@ -1,5 +1,5 @@
-@import url("../../../../assets/css/vendor/materialize.min.css");
-@import url("../../../../assets/css/vendor/all.css");
+@import url("../css/vendor/materialize.min.css");
+@import url("../css/vendor/all.min.css");
 @import url("../fonts/pt_sans.css");
 /* label color */
 .input-field label {
