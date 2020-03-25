@@ -1,5 +1,7 @@
 # freelance_portfolio
 
+![alt text](screenshots/freelance_portfolio.jpg)
+
 freelance_portfolio is a freelancer showcase and contact form page built on materialize-css.
 
 **Css**
